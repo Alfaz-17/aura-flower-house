@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { ChevronRight } from "lucide-react"
 
@@ -60,10 +59,8 @@ const categories = [
 export default function CollectionsPage() {
   return (
     <main className="min-h-screen bg-background">
-      <Navbar />
-
       {/* Header */}
-      <header className="pt-48 pb-24 px-6 md:px-12">
+      <header className="pt-32 pb-24 px-6 md:px-12">
         <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-end gap-12">
           <div className="space-y-6 max-w-2xl">
             <span className="text-[11px] uppercase tracking-[0.4em] text-muted-foreground">The Archive</span>

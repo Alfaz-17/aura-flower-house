@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 
 const menuItems = [
+    { name: 'Home', href: '/' },
     { name: 'Collections', href: '/collections' },
     { name: 'Signature', href: '/signature' },
     { name: 'Wedding', href: '/wedding' },
@@ -29,9 +30,9 @@ export function AuraNavbar() {
         <header>
             <nav
                 data-state={menuState && 'active'}
-                className="fixed z-20 w-full px-2 group">
-                <div className={cn('mx-auto mt-2 max-w-6xl px-6 transition-all duration-300 lg:px-12', isScrolled && 'bg-background/80 max-w-4xl rounded-2xl border border-primary/10 backdrop-blur-lg lg:px-5')}>
-                    <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
+                className="fixed z-50 w-full px-2 group">
+                <div className={cn('mx-auto mt-2 max-w-6xl px-6 transition-all duration-300 lg:px-12 bg-background/70 backdrop-blur-md rounded-2xl border border-primary/10', isScrolled && 'bg-background/95 max-w-4xl backdrop-blur-xl lg:px-5')}>
+                    <div className="relative flex flex-wrap items-center justify-between gap-6 py-4 lg:gap-0 lg:py-5">
                         <div className="flex w-full justify-between lg:w-auto">
                             <Link
                                 href="/"

@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { ArrowLeft, Plus } from "lucide-react"
 
@@ -43,9 +42,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
 
   return (
     <main className="min-h-screen bg-background">
-      <Navbar />
-
-      <header className="pt-48 pb-12 px-6 md:px-12 border-b">
+      <header className="pt-32 md:pt-48 pb-12 px-6 md:px-12 border-b">
         <div className="max-w-screen-2xl mx-auto space-y-8">
           <Link
             href="/collections"

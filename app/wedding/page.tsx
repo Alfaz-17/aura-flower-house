@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { Calendar, MapPin, Users, Instagram } from "lucide-react"
 import Link from "next/link"
@@ -7,10 +6,8 @@ import Link from "next/link"
 export default function WeddingPage() {
   return (
     <main className="min-h-screen bg-background">
-      <Navbar />
-
       {/* Hero Section */}
-      <section className="relative h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden pt-24">
         <Image
           src="/large-artificial-floral-installation-wall.jpg"
           alt="Wedding Ceremony"

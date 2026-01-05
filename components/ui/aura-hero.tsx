@@ -41,7 +41,7 @@ export function AuraHeroSection() {
             </div>
 
             <section>
-                <div className="relative pt-24 md:pt-36">
+                <div className="relative pt-32 md:pt-48">
                     {/* Sparkles background */}
                     <div className="absolute inset-0 w-full h-full -z-10">
                         <SparklesCore
