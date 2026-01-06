@@ -12,7 +12,7 @@ const categories = [
     description:
       "High-quality artificial blooms designed to maintain their beauty year-round, bringing vibrant color and natural elegance to any space.",
     count: "48 Curated Pieces",
-    priceRange: "$45 – $280",
+    priceRange: "",
   },
   {
     title: "Artificial Green Plants",
@@ -22,7 +22,7 @@ const categories = [
     description:
       "Maintenance-free botanical elements that provide the lush, refreshing look of real plants without watering, sunlight requirements, or upkeep.",
     count: "36 Curated Pieces",
-    priceRange: "$65 – $380",
+    priceRange: "",
   },
   {
     title: "Hanging Greenery",
@@ -32,7 +32,7 @@ const categories = [
     description:
       "Transform vertical spaces with our curated selection of artificial hanging plants and cascading botanical elements that add depth and dimension to interiors.",
     count: "24 Curated Pieces",
-    priceRange: "$85 – $350",
+    priceRange: "",
   },
   {
     title: "Bonsai",
@@ -42,7 +42,7 @@ const categories = [
     description:
       "Artfully crafted artificial bonsai trees that capture the essence of this ancient art form, perfect for desks, shelves, and minimalist interiors.",
     count: "12 Limited Editions",
-    priceRange: "$320 – $1,200",
+    priceRange: "",
   },
   {
     title: "Décor Accessories",
@@ -52,7 +52,7 @@ const categories = [
     description:
       "Complement your botanical collection with premium décor accessories designed to enhance and elevate your interior styling.",
     count: "Custom Selection",
-    priceRange: "$28 – $450",
+    priceRange: "",
   },
 ]
 

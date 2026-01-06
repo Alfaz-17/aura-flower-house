@@ -43,7 +43,7 @@ export function AuraHeroSection() {
                               <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-primary"></span>
                             </span>
                             <span className="text-[11px] uppercase tracking-[0.25em] font-bold text-primary">
-                                Est. 2008 • Bhavnagar
+                                Est. 2024 • Bhavnagar
                             </span>
                         </div>
 

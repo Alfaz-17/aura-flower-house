@@ -61,32 +61,32 @@ export default function Home() {
             {[
               {
                 title: "Faux Botanicals",
-                description: "Lifelike realism",
+                description: "Museum-quality reproductions",
                 image: "/collection_faux_botanicals.png",
               },
               {
                 title: "Interior Trees",
-                description: "Height & presence",
+                description: "Architectural statement pieces",
                 image: "/collection_interior_trees.png",
               },
               {
                 title: "Wall Installations",
-                description: "Artistic greenery",
+                description: "Vertical garden artistry",
                 image: "/collection_wall_installation.png",
               },
               {
                 title: "Tabletop Accents",
-                description: "Finishing touches",
+                description: "Curated floral centerpieces",
                 image: "/collection_tabletop_accents.png",
               },
               {
                 title: "Ceramic Vessels",
-                description: "Handcrafted pots",
+                description: "Artisan handcrafted pottery",
                 image: "/collection_ceramic_vessels.png",
               },
               {
                   title: "Signature Concepts",
-                  description: "Bespoke designs",
+                  description: "Bespoke design commissions",
                   image: "/collection_signature_concepts.png"
               }
             ].map((item, idx) => (
