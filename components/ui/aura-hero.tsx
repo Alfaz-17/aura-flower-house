@@ -47,9 +47,9 @@ export function AuraHeroSection() {
                             </span>
                         </div>
 
-                        <h1 className="font-serif text-6xl md:text-7xl lg:text-8xl leading-[1.05] text-primary tracking-tight">
-                            Nature, <br/>
-                            <span className="italic font-light text-foreground/90">Perfected.</span>
+                        <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.15] text-primary tracking-tight">
+                            🌸 Botanical elegance & <br/>
+                            <span className="italic font-light text-foreground/90">timeless design</span>
                         </h1>
                      </motion.div>
 
@@ -57,8 +57,14 @@ export function AuraHeroSection() {
                         variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] } } }}
                         className="text-xl md:text-2xl text-muted-foreground font-light leading-relaxed max-w-lg mx-auto lg:mx-0"
                     >
-                        Transform your space with premium artificial botanicals and handcrafted decor. 
-                        Visit our studio or shop our curated collections online.
+                        Crafting serene spaces with nature's artistry
+                    </motion.p>
+
+                    <motion.p 
+                        variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] } } }}
+                        className="text-lg md:text-xl text-muted-foreground/80 font-light leading-relaxed max-w-lg mx-auto lg:mx-0 italic"
+                    >
+                        Where every bloom tells your story ✨
                     </motion.p>
 
                     <motion.div 
