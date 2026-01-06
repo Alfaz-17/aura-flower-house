@@ -32,6 +32,10 @@ export const metadata: Metadata = {
     "botanical elements",
     "Aura House of Flowers",
   ],
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+  },
   openGraph: {
     title: "Aura House of Flowers",
     description: "Where nature meets considered design.",

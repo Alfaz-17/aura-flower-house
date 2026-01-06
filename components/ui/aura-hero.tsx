@@ -109,20 +109,7 @@ export function AuraHeroSection() {
                         <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-transparent opacity-40 pointer-events-none" />
 
                          {/* Floating Glass Card */}
-                        <motion.div 
-                            style={{ y: y2 }}
-                            className="absolute bottom-8 left-8 right-8 bg-white/10 backdrop-blur-xl p-8 rounded-2xl border border-white/20 shadow-xl"
-                        >
-                             <div className="flex justify-between items-end text-white">
-                                <div>
-                                    <p className="text-[10px] uppercase tracking-[0.3em] font-medium opacity-80 mb-2">Featured Item</p>
-                                    <p className="font-serif text-3xl tracking-wide">The Royal Orchid</p>
-                                </div>
-                                <div className="h-10 w-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white border border-white/30">
-                                    <ArrowRight size={16} />
-                                </div>
-                             </div>
-                        </motion.div>
+                       
                     </div>
                     
                     {/* Abstract Floating Orbs for Depth */}
